@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Chi咖起｜ 路線預估車資</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .dashboard-container {
+            width: 375px;
+            height: 667px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 16px;
+            background-color: white;
+            overflow: hidden;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .header {
+            padding: 10px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 12px;
+        }
+        .tableauPlaceholder {
+            width: 100%;
+            height: calc(100% - 50px);
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <div class="header">Car Chi咖起｜ 路線預估車資</div>
+        <div class="tableauPlaceholder" id="viz1736344564828" style="position: relative">
+            <noscript>
+                <a href='#'>
+                    <img alt='' src='https://public.tableau.com/static/images/JF/JF94J3QJR/1_rss.png' style='border: none;' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style="display:none;">
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='path' value='shared/JF94J3QJR' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='no' />
+                <param name='showShareOptions' value='false' />
+                <param name='showDownloadOptions' value='false' />
+                <param name='showVizHome' value='no' />
+                <param name='static_image' value='https://public.tableau.com/static/images/JF/JF94J3QJR/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='no' />
+                <param name='language' value='zh-TW' />
+            </object>
+        </div>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1736344564828');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = '100%';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+</body>
+</html>
